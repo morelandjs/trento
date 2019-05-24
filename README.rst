@@ -4,4 +4,4 @@ T\ :sub:`R`\ ENTo
 
 Initial condition model for high-energy nuclear collisions.
 
-This development fork is now merged into [Duke-QCD/trento](https://github.com/Duke-QCD/trento) and is no longer maintained.
+This development fork is now merged into https://github.com/Duke-QCD/trento and is no longer maintained.
