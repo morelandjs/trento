@@ -72,6 +72,10 @@ NucleusPtr Nucleus::create(const std::string& species, double nucleon_dmin) {
     return NucleusPtr{new DeformedWoodsSaxonNucleus{
       238, 6.67, 0.440, 0.280, 0.093, nucleon_dmin
     }};
+  else if (species == "U4")
+    return NucleusPtr{new DeformedWoodsSaxonNucleus{
+      238, 6.81, 0.6, 0.236, 0.098, nucleon_dmin
+    }};
   // Read nuclear configurations from HDF5.
   else if (hdf5::filename_is_hdf5(species)) {
 #ifdef TRENTO_HDF5

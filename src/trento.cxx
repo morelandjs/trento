@@ -109,6 +109,9 @@ int main(int argc, char* argv[]) {
     ("reduced-thickness,p",
      po::value<double>()->value_name("FLOAT")->default_value(0., "0"),
      "reduced thickness parameter")
+    ("thickness-exponent",
+     po::value<double>()->value_name("FLOAT")->default_value(1., "1"),
+     "thickness exponent parameter")
     ("fluctuation,k",
      po::value<double>()->value_name("FLOAT")->default_value(1., "1"),
      "gamma fluctuation shape parameter")
